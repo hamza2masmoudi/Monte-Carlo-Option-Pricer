@@ -1,0 +1,7 @@
+option_type,S,K,T,r,sigma,n_steps,n_sims,model_type,antithetic,barrier,rebate,cash_payout,ticker_symbol
+european_call,100,100,1,0.05,0.2,252,10000,gbm,True,0.0,0.0,0.0,None
+down_and_out_call,100,100,1,0.05,0.2,252,10000,gbm,False,90.0,0.0,0.0,None
+digital_call,100,100,1,0.05,0.2,252,8000,gbm,False,0.0,0.0,1.0,None
+lookback_put,100,0,1,0.05,0.2,252,5000,gbm,False,0.0,0.0,0.0,None
+european_call,150,160,1,0.03,0.25,252,3000,ml,False,0.0,0.0,0.0,AAPL
+down_and_out_call,239.36,240.0,1.0,0.03,0.6045,252,5000,gbm,False,90.0,0.0,1.0,AAPL
